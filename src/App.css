@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.main-wrapper {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brewery {
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2% 0;
+}
